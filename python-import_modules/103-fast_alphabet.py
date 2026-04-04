@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print(__import__('string').ascii_uppercase)
+print(bytes(range(65, 91)).decode())
