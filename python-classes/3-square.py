@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Module that defines a Square class with an area method."""
+"""Module that defines a Square class with size validation and area method."""
 
 
 class Square:
-    """A class that defines a square with size validation and area computation."""
+    """A class that defines a square and validates its size."""
 
     def __init__(self, size=0):
-        """Initialize a new Square instance with optional size.
+        """Initialize a Square instance with an optional integer size.
 
         Args:
             size (int): The size of the square. Defaults to 0.
@@ -22,9 +22,9 @@ class Square:
         self.__size = size
 
     def area(self):
-        """Calculate and return the area of the square.
+        """Calculate and return the current area of the square.
 
         Returns:
-            int: The area of the square (size squared).
+            int: The area of the square computed as size squared.
         """
         return self.__size ** 2
