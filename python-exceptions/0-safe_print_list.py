@@ -2,11 +2,9 @@
 def safe_print_list(my_list=[], x=0):
     """
     Prints x elements of a list.
-    
     Args:
         my_list: The list to print from.
         x: The number of elements to print.
-        
     Returns:
         The actual number of elements printed.
     """
@@ -17,5 +15,5 @@ def safe_print_list(my_list=[], x=0):
             count += 1
         except IndexError:
             break
-    print("")  # Prints the new line
+    print("")
     return count
