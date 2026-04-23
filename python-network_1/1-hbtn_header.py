@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Script that takes a URL and displays the X-Request-Id header value"""
 import urllib.request
 import sys
 
